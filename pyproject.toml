@@ -1,0 +1,11 @@
+[project]
+name = "TelegramBotForVKGroupAnalyze"
+version = "0.1.0"
+description = "Telegram bot for analyzing VK groups."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aiogram>=3.21.0",
+    "fastapi[standard]>=0.116.1",
+    "pydantic-settings>=2.10.1",
+]
